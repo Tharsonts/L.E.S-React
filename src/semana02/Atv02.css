@@ -1,0 +1,206 @@
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #00ffea;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+    background: transparent;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px; 
+    box-shadow: 0 10px 40px rgba(0, 255, 234, 0.6);
+    padding: 40px;
+    width: 90%;
+    max-width: 450px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 50px rgba(0, 255, 234, 0.9); 
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0;
+    text-shadow: 0 0 15px rgba(0, 255, 234, 1);
+}
+
+
+.reset-btn {
+    background: transparent;
+    border: none;
+    color: #00ffea;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.reset-btn:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.total-display {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px rgba(0, 255, 234, 1);
+}
+
+.counter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 234, 0.6);
+    transition: transform 0.3s, background 0.3s;
+}
+
+.counter:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+.counter img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 255, 234, 0.5);
+}
+
+
+.counter h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.divButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.divButton button {
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+.button-increment {
+    background-color: #4CAF50;
+}
+
+.button-increment:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.button-decrement {
+    background-color: #f44336;
+}
+
+.button-decrement:hover {
+    background-color: #d32f2f;
+    transform: scale(1.1);
+}
+
+.count-display {
+    font-size: 1.5rem;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 40px;
+    margin: 0 5px;
+}
+
+
+.reset-btn {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.reset-btn:hover {
+    background-color: transparent;
+    color: rgba(0, 255, 234, 0.3);
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.5s ease;
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .total-display {
+        font-size: 2.5rem;
+    }
+    
+    .counter img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .divButton button {
+        width: 40px;
+        height: 40px;
+    }
+}
+
