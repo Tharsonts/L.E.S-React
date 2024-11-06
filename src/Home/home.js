@@ -12,10 +12,13 @@ const Home = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/semana01">Atividade Semana 01</Link>
+            <Link to="/semana01">Atividade 01</Link>
           </li>
           <li>
-            <Link to="/semana02">Atividade Semana 02</Link>
+            <Link to="/semana02">Atividade 02</Link>
+          </li>
+          <li>
+            <Link to="/semana02">Atividade 03</Link>
           </li>
         </ul>
       </nav>
