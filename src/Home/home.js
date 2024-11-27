@@ -18,13 +18,10 @@ const Home = () => {
             <Link to="/semana02">Atividade 02</Link>
           </li>
           <li>
-            <Link to="/semana02">Atividade 03</Link>
+            <Link to="/semana03">Atividade 03</Link>
           </li>
           <li>
-            <Link to="/semana03">Atividade 04</Link>
-          </li>
-          <li>
-            <Link to="/semana04">Atividade 05</Link>
+            <Link to="/semana04">Atividade 04</Link>
           </li>
         </ul>
       </nav>
