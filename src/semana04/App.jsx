@@ -25,11 +25,3 @@ function ToolbarA({ onPlayMovie, onUploadImage })
     );
 }
 
-function Button({ onClick, children }) 
-{
-    return (
-            <button onClick={onClick}>
-                {children}
-            </button>
-    );
-}
