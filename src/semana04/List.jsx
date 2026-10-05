@@ -17,10 +17,8 @@ export default function List()
             />
             <button onClick={() => 
             {
-                artists.push({
-                    id: nextId++,
-                    name: name
-                });
+                setArtists([...artists, { id: nextId++, name }]);
+                setName('');
             }}>Add</button>
             <ul>
                 {artists.map(artist =>(

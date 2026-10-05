@@ -7,9 +7,9 @@ export default function Form()
 
     function handleSubmit(e) 
     {
-        e. preventDefauIt() ;
+        e.preventDefault();
         setTimeout(() => {
-            alert('You said ${message} to ${to}');
+            alert(`You said ${message} to ${to}`);
         }, 5000);
     }
 
