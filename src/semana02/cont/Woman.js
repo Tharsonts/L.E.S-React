@@ -1,5 +1,4 @@
 import React from "react";
-import Buttons from "./ButtonCount";
 import imgWoman from "../../img/mulher.png";
 import "../Atv02.css";
 

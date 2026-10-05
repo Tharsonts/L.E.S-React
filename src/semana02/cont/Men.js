@@ -1,5 +1,4 @@
 import React from "react";
-import Buttons from "./ButtonCount";
 import imgMan from "../../img/homem.png";
 import "../Atv02.css";
 

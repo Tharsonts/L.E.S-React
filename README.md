@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# L.E.S React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto acadêmico desenvolvido em React para a disciplina de Laboratório de Engenharia de Software (L.E.S.). As quatro atividades recriam interfaces propostas em aula e foram organizadas em páginas independentes.
 
-## Available Scripts
+## Demonstração
 
-In the project directory, you can run:
+A aplicação está publicada em [l-e-s-react-qgk6.vercel.app](https://l-e-s-react-qgk6.vercel.app/).
 
-### `npm start`
+## Atividades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Atividade 1 — Relógio e apresentação:** exibe o horário atual, uma mensagem de apresentação da Fatec e o retorno à página inicial.
+- **Atividade 2 — Contador:** contabiliza homens e mulheres, mantém o total geral e permite adicionar, remover e zerar os valores. Os controles `+`, contador e `−` ficam alinhados e impedem valores negativos.
+- **Atividade 3 — Reprodução de interface:** recria em React a interface fornecida pela professora, preservando a estrutura visual solicitada.
+- **Atividade 4 — Reprodução de interface:** transforma outra referência visual da disciplina em uma página React navegável.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O fundo estrelado animado é uma personalização do projeto para dar unidade visual às atividades; as interfaces e regras principais seguem as propostas da disciplina.
 
-### `npm test`
+## Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- JavaScript
+- React Router
+- CSS
 
-### `npm run build`
+## Executar localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Depois, acesse [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para gerar a versão de produção:
 
-### `npm run eject`
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Estrutura
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As páginas ficam em `src/semana01` até `src/semana04`. A página inicial em `src/Home` apresenta os links para cada atividade e `src/App.js` concentra o roteamento.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contexto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Trabalho acadêmico realizado em 2024 para praticar componentização, estado, eventos, navegação e estilização de interfaces com React.
